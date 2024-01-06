@@ -75,8 +75,8 @@ namespace WepAPI
 
             app.UseHttpsRedirection();
 
-            app.UseAuthentication(); // Key
-            app.UseAuthorization();
+            app.UseAuthentication(); // eve girme yetkisi
+            app.UseAuthorization();  // odaya girme yetkisi
 
 
             app.MapControllers();
